@@ -54,11 +54,19 @@ Github has been set up. This will greatly help communication and efficacy. Githu
 # Week May 7 - 11
 ### Planning
 This seems like our halfway point in our project. We estimate that we will implement a database function by the end of this week. Currently, I am studying SQLite. Our goal is to set up a database that has player names and how often they’ve done something. I believe that this function would demonstrate mastery and knowledge of the subject of databases. Data transfer is a main component of this bot, and configuring a database to hold and manipulate data is crucial for the development of this project as a whole. Next, I intend to research webhooks and the process of extracting information from online websites or databases. Some resources have been found that aid in webhooks so that one does not have to code all the programs themselves. Plenty of websites can be used to get data from, such as wikipedia, google, or other databases. 
+
 ### Progress
 We have set up a basic database that records the username, the name of the tag, and how many times the user has called it, and we have the ability to easily add, edit, and remove tags. We are almost done modifying it so that it takes in commands and records how many times it has been used, all the users that have used it, the time of last call, and the user that called it last. We are also currently researching methods and APIs and how to connect them with JavaScript for the bot. 
 
 # Week May 14-18
 ### Planning
 This week, we are going to scout out APIs to implement. We are gathering information on how NodeJS organizes its code. Modules are a large component of NodeJS, and they are sections of stand-alone, reusable code. We will also finish altering the current database to fit the new specifications and then test it in our shared server, making changes and adding features as needed. Absences caused by AP exams might slightly hinder our progress but despite that, we are still on track. We have already accomplished a majority of the tasks we set out to do with our bot at the beginning of the year, and are changing out some of our short-term goals, such as playing music, which we might come back to if we have time, with adding a database.
+
+### Progress
+Aayushi has finished setting up the database. It persists even after the bot has been restarted. Our next task is to find a place to host the bot. We also want to implement music. Marysa has written about features of javascript and NodeJS so that when it is time to implement other APIs for things like searching the web, or streaming music, it is easier. Such research, like:
+
+Promises are created with a function containing two parameters, resolve and reject. Within the body of the function should be code that calls ‘resolve’ when there is a positive response, and ‘reject’ when there is a negative response.
+
+helps both of us to understand the concepts we’ve learned without having to go back and reread the source material.
 
 
